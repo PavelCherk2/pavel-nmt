@@ -1,0 +1,80 @@
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #e0e0e0;
+}
+
+.option-id {
+    width: 24px;
+    height: 24px;
+    background: #3a3a3a;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.inputs-row {
+    display: flex;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.answer-input {
+    width: 80px;
+    padding: 10px;
+    background: #2a2a2a;
+    border: 2px solid #444;
+    border-radius: 8px;
+    color: #e0e0e0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.answer-input.correct {
+    border-color: #4caf50;
+    color: #4caf50;
+}
+
+.answer-input.wrong {
+    border-color: #f44336;
+    color: #f44336;
+}
+
+.check-btn {
+    padding: 10px 24px;
+    background: #3a3a3a;
+    border: 2px solid #555;
+    border-radius: 8px;
+    color: #e0e0e0;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.check-btn:hover {
+    background: #444;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.enter-label,
+.result {
+    color: #e0e0e0;
+}

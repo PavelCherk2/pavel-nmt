@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+		"question_id": 1,
+		"options": [
+            {
+                "id": 1,
+				"text": "Велике князівство Литовське",
+				"is_correct": true
+            },
+            {
+                "id": 2,
+				"text": "Королівство Польща",
+				"is_correct": true
+            },
+            {
+                "id": 3,
+				"text": "Велике князівство Московське",
+				"is_correct": false
+            },
+            {
+                "id": 4,
+				"text": "Золота Орда",
+				"is_correct": false
+            },
+            {
+                "id": 5,
+				"text": "Кримське ханство",
+				"is_correct": false
+            },
+            {
+                "id": 6,
+				"text": "Королівство Угорщина",
+				"is_correct": true
+            },
+            {
+                "id": 7,
+				"text": "Османська імперія",
+				"is_correct": false
+            }
+        ]
+    }
+]

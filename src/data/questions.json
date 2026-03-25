@@ -1,0 +1,21 @@
+[
+	{
+		"id": 1,
+		"topic_id": 1,
+		"text": "У якому році відбулася подія, описана в уривку з історичного джерела: «…государ Ягайло, великий князь, з усіма своїми ще не хрещеними братами, ближніми, …жагуче бажає і просить прийняти їх у католицьку віру святої Римської церкви… обіцяє свої литовські й руські землі навік приєднати до королівства Польського…»?",
+		"image": "https://nashgrunwald.by/images/history/jagajlo.jpg"
+	},
+	{
+		"id": 2,
+		"topic_id": 1,
+		"text": "«Кревська унія» – це угода, що передбачала",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Unia_w_Krewie.JPG/250px-Unia_w_Krewie.JPG"
+	},
+	{
+		"id": 3,
+		"topic_id": 1,
+		"text": "Укладення Кревської унії (1385 р.) призвело до",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lietuva_ir_Lenkija.Lithuania_and_Poland_1387.png/330px-Lietuva_ir_Lenkija.Lithuania_and_Poland_1387.png"
+	}
+	
+]

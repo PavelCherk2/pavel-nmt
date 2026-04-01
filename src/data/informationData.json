@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "title": "Программирование",
+      "subtopics": [
+        {
+          "id": 1,
+          "title": "Основы React",
+          "text": "Изучаем компоненты и пропсы",
+          "images": [
+            {
+              "id": 50,
+              "url": "https://example.com/react-logo.png",
+              "caption": "Логотип React"
+            }
+          ],
+          "tests": [
+            {
+              "id": 1,
+              "question": {
+                "number": 1,
+                "type": "four-options",
+                "text": "Что такое JSX?",
+                "image_url": "https://yantar.ua/upload/custom/images/4pvd1xcp.jpg",
+                "correct_answer": 2,
+                "answers": [
+                  { "id": 1, "text": "Тип базы данных", "image_url": "" },
+                  { "id": 2, "text": "Расширение синтаксиса JavaScript", "image_url": "" },
+                  { "id": 3, "text": "Специальный протокол передачи данных", "image_url": "" },
+                  { "id": 4, "text": "Название системного файла", "image_url": "" }
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "question": {
+                "number": 2,
+                "type": "boolean",
+                "text": "React — это фреймворк, а не библиотека.",
+                "image_url": "",
+                "correct_answer": 2,
+                "answers": [
+                  { "id": 1, "text": "Правда", "image_url": "" },
+                  { "id": 2, "text": "Ложь", "image_url": "" }
+                ]
+              }
+            },
+            {
+              "id": 3,
+              "question": {
+                "number": 3,
+                "type": "four-options",
+                "text": "Какой хук используется для хранения состояния?",
+                "image_url": null,
+                "correct_answer": 3,
+                "answers": [
+                  { "id": 1, "text": "useEffect", "image_url": "" },
+                  { "id": 2, "text": "useContext", "image_url": "" },
+                  { "id": 3, "text": "useState", "image_url": "" },
+                  { "id": 4, "text": "useReducer", "image_url": "" }
+                ]
+              }
+            },
+            {
+                "id": 4,
+                "question": {
+                  "type": "input-type",
+                  "text": "Оберіть ознаки React:",
+                  "correct_answers": [1, 3, 5], 
+                  "answers": [
+                    { "id": 1, "text": "Virtual DOM" },
+                    { "id": 2, "text": "Пряма робота с БД" },
+                    { "id": 3, "text": "Компонентний підхід" },
+                    { "id": 4, "text": "Тільки для бекенду" },
+                    { "id": 5, "text": "JSX синтаксис" },
+                    { "id": 6, "text": "Це мова програмування" },
+                    { "id": 7, "text": "Використовує SQL" }
+                  ]
+                }
+              }
+          ]
+        }
+      ]
+    }
+  ]

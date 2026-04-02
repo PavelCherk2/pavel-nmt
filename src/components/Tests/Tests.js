@@ -21,7 +21,7 @@ export function TestPage({ topicId, subtopicId }) {
     <div>
       <OneAswerBlock topicId={topicId} subtopicId={subtopicId} questionType="four-options" />
       <InputAnswerBlock topicId={topicId} subtopicId={subtopicId} questionType="input-type" />
-      <CheckTableQuestion topicId={topicId} subtopicId={subtopicId} questionType="sequence" />
+      {/* <CheckTableQuestion topicId={topicId} subtopicId={subtopicId} questionType="sequence" /> */}
     </div>
     <button className="result-button">Результат</button>
   </div>

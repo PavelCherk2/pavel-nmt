@@ -12,7 +12,7 @@ function Question(props) {
   return (
     <div className="card">
       <div className='qustion-text'>
-        {props.image && <img src={props.image} />}
+        {props.image && <img src={props.image} alt='question-photo'/>}
         <h2>{props.question}</h2>
       </div>
       <div className='answers'>

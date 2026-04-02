@@ -6,8 +6,8 @@ function App() {
 
   return (
     <div>
-      <OneAswerBlock topicId={1} />
-      <InputAnswerBlock topicId={1} />
+      <OneAswerBlock topicId={1} subtopicId={1} questionType="four-options"/>
+      {/* <InputAnswerBlock topicId={1} subtopicId={1} questionType="four-options"/> */}
     </div>
   );
 }

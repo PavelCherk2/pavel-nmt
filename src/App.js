@@ -1,13 +1,11 @@
 import './App.css';
-import { InputAnswerBlock } from './components/QuizBlockInput/QuizBlockInput';
-import { OneAswerBlock } from './components/QuizBlock/QuizBlock';
+import { TestPage } from './components/Tests/Tests';
 
 function App() {
 
   return (
     <div>
-      <OneAswerBlock topicId={1} subtopicId={1} questionType="four-options"/>
-      {/* <InputAnswerBlock topicId={1} subtopicId={1} questionType="four-options"/> */}
+      <TestPage topicId={1} subtopicId={1}/>
     </div>
   );
 }

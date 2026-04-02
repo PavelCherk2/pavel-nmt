@@ -1,0 +1,26 @@
+.check-table-question .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 16px;
+    font-size: clamp(10px, 1.6vw, 18px);
+}
+
+.check-table-question .option p:first-child {
+    padding: 5px 8px;
+    border: 1px solid #8b8b8b;
+    background: #cacaca;
+}
+
+.check-table-question .option img {
+    width: clamp(24px, 10vh, 200px);
+    height: clamp(24px, 10vh, 200px);
+}
+
+/* .check-table-question .radio-cell input[type="radio"] {
+    appearance: none;
+    border: 1px solid #8b8b8b;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+} */

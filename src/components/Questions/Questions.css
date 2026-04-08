@@ -1,26 +1,124 @@
-.check-table-question .option {
+.question-title {
+    color: #e0e0e0;
+}
+
+.options-display {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.letter-box {
+    width: 24px;
+    height: 24px;
+    background: #3a3a3a;
+    border-radius: 4px;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-    gap: 16px;
-    font-size: clamp(10px, 1.6vw, 18px);
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    flex-shrink: 0;
 }
 
-.check-table-question .option p:first-child {
-    padding: 5px 8px;
-    border: 1px solid #8b8b8b;
-    background: #cacaca;
+.option-item-nmt {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
 }
 
-.check-table-question .option img {
-    width: clamp(24px, 10vh, 200px);
-    height: clamp(24px, 10vh, 200px);
+.option-label-text {
+    font-size: 18px;
+    color: #e0e0e0;
 }
 
-/* .check-table-question .radio-cell input[type="radio"] {
-    appearance: none;
-    border: 1px solid #8b8b8b;
-    width: 12px;
-    height: 12px;
-    margin: 0;
-} */
+.mark-label {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.answer-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #30384f;
+    color: #e0e0e0;
+}
+
+.answer-table th,
+.answer-table td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.row-number {
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.custom-radio {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-radio input {
+    display: none;
+}
+
+.radio-checkmark {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+}
+
+.custom-radio input:checked~.radio-checkmark::after {
+    content: "✕";
+    color: #28a745;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.check-btn {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.check-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.radio-cell.missed {
+    background-color: rgba(40, 167, 69, 0.15); 
+    transition: background-color 0.5s ease;
+}
+
+.radio-cell.wrong .radio-checkmark::after {
+    content: "✕";
+    color: #dc3545 !important;
+    font-size: 32px;
+}
+
+.radio-cell.missed .radio-checkmark::after {
+    content: "✕";
+    color: #28a745;
+    display: block;
+}

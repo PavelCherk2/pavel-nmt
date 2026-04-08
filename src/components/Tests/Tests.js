@@ -2,7 +2,7 @@ import './Tests.css';
 import { OneAswerBlock } from '../QuizBlock/QuizBlock';
 import { InputAnswerBlock } from '../QuizBlockInput/QuizBlockInput';
 import informationData from '../../data/informationData.json';
-import { CheckTableQuestion } from '../Questions/Questions';
+import { SequenceBlock } from '../BlockOfSequence/BlockOfSequence';
 
 const getSubtopicTitle = (topicId, subtopicId) => {
 
@@ -21,7 +21,7 @@ export function TestPage({ topicId, subtopicId }) {
     <div>
       <OneAswerBlock topicId={topicId} subtopicId={subtopicId} questionType="four-options" />
       <InputAnswerBlock topicId={topicId} subtopicId={subtopicId} questionType="input-type" />
-      {/* <CheckTableQuestion topicId={topicId} subtopicId={subtopicId} questionType="sequence" /> */}
+      <SequenceBlock topicId={topicId} subtopicId={subtopicId} questionType="sequence" />
     </div>
     <button className="result-button">Результат</button>
   </div>

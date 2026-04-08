@@ -1,0 +1,75 @@
+.subtopic-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 20px;
+  color: #2d3436;
+}
+
+.subtopic-page-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #0984e3;
+}
+
+/* Базовый макет */
+.theory-layout {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Состояние: Есть картинки (2 колонки) */
+.theory-layout.has-media {
+  grid-template-columns: 1.5fr 1fr; /* Текст шире, чем блок картинок */
+}
+
+/* Состояние: Нет картинок (1 колонка) */
+.theory-layout.no-media {
+  grid-template-columns: 1fr;
+}
+
+/* Стили текста */
+.theory-text p {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Стили боковой панели с картинками */
+.theory-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.theory-card {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #dfe6e9;
+}
+
+.theory-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.theory-card figcaption {
+  padding: 12px;
+  background: #fbfbfb;
+  font-size: 0.85rem;
+  color: #636e72;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+/* Адаптив для планшетов и телефонов */
+@media (max-width: 900px) {
+  .theory-layout.has-media {
+    grid-template-columns: 1fr; /* Картинки переезжают под текст */
+    gap: 2rem;
+  }
+}
